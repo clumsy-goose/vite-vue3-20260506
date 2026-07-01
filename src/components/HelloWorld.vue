@@ -17,7 +17,7 @@ const testEnv = import.meta.env.VITE_TEST
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
-      环境变量：{{ testEnv }} 这是测试环境1
+      环境变量：{{ testEnv }} 这是测试环境
     </p>
   </div>
 
