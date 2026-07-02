@@ -7,6 +7,9 @@ defineProps({
 
 const count = ref(0)
 const testEnv = import.meta.env.VITE_TEST
+const testEnv2 = import.meta.env.TEST
+const testEnv3 = import.meta.env.NAME
+const testEnv4 = import.meta.env.ALL
 </script>
 
 <template>
@@ -18,6 +21,10 @@ const testEnv = import.meta.env.VITE_TEST
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
       环境变量：{{ testEnv }} 这是测试环境
+      VITE_TEST: {{ testEnv }} |
+      TEST: {{ testEnv2 }} |
+      NAME: {{ testEnv3 }}
+      ALL: {{ testEnv4 }}
     </p>
   </div>
 
