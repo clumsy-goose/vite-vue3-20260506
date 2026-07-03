@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
     define: {
       'import.meta.env.TEST': JSON.stringify(env.TEST),
       'import.meta.env.NAME': JSON.stringify(env.NAME),
-      'import.meta.env.NAME': JSON.stringify(env.ALL),
+      'import.meta.env.ALL': JSON.stringify(env.ALL),
     },
   }
 })
