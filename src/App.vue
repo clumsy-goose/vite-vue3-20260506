@@ -15,7 +15,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="/helloworld-cloud">Cloud 函数</a>
     <a href="/helloworld-edge">Edge 函数</a>
   </nav>
-  <HelloWorld msg="这是生产环境" />
+  <HelloWorld msg="这是测试环境" />
 </template>
 
 <style scoped>
