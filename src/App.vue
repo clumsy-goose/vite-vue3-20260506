@@ -11,6 +11,10 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  <nav>
+    <a href="/helloworld-cloud">Cloud 函数</a>
+    <a href="/helloworld-edge">Edge 函数</a>
+  </nav>
   <HelloWorld msg="这是预览环境Preview" />
 </template>
 
@@ -26,5 +30,16 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+nav {
+  margin: 1em 0;
+}
+nav a {
+  margin-right: 1em;
+  color: #42b883;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 </style>
