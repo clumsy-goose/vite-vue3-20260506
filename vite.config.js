@@ -6,6 +6,9 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), ['VITE_', 'TEST', 'NAME', 'ALL', 'ENVSCOPE', 'BRANCH'])
   return {
     plugins: [vue()],
+    build: {
+      outDir: 'build',
+    },
     define: {
       'import.meta.env.TEST': JSON.stringify(env.TEST),
       'import.meta.env.NAME': JSON.stringify(env.NAME),
