@@ -16,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="/helloworld-edge">Edge 函数</a>
   </nav>
   <HelloWorld msg="这是预览环境" />
+  <a href="https://git-production.corbinlin.cn/">点击后跳转到https://git-production.corbinlin.cn/</a>
 </template>
 
 <style scoped>
