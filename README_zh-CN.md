@@ -35,3 +35,11 @@ npm run build
 [![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?template=vite-vue3)
 
 更多模板: [从模板开始](https://console.cloud.tencent.com/edgeone/pages/create/template)
+
+## Sitemap
+
+执行 `npm run build` 会在 `dist/` 生成 `sitemap.xml` 与 `robots.txt`，`npm run dev` 时也可直接访问。默认使用正式域名 `https://live-production.corbinlin.cn`，预览或其他环境可在 `.env` 中通过 `VITE_SITE_URL` 覆盖（可参考 `.env.example`）：
+
+```sh
+VITE_SITE_URL=https://your-preview-domain.com npm run build
+```

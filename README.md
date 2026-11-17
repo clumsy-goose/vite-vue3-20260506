@@ -35,3 +35,11 @@ Deploy your own Vite project with Edgeone pages.
 [![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?template=vite-vue3)
 
 More Templates: [EdgeOne Pages](https://edgeone.ai/pages/templates)
+
+## Sitemap
+
+`npm run build` generates `dist/sitemap.xml` and `dist/robots.txt` (also served by `npm run dev`). URLs default to `https://live-production.corbinlin.cn`; override `VITE_SITE_URL` in `.env` (see `.env.example`) for preview or other domains:
+
+```sh
+VITE_SITE_URL=https://your-preview-domain.com npm run build
+```
