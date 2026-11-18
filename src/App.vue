@@ -14,7 +14,6 @@ import HelloWorld from './components/HelloWorld.vue'
   <nav>
     <a href="/helloworld-cloud">Cloud 函数</a>
     <a href="/helloworld-edge">Edge 函数</a>
-    
   </nav>
   <HelloWorld msg="这是分支feature/test2" />
 </template>
